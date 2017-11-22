@@ -184,7 +184,8 @@
             }
             h2 {
                 margin-top: .8rem;
-                font-size: 0.56rem;
+                /*font-size: 0.56rem;*/
+                font-size: 42px;
                 line-height: 0.6rem;
                 padding-left: 0.45rem;
             }

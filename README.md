@@ -14,5 +14,5 @@
 flex+rem+百分比。可以等分的使用flex:1，大于一半宽的建议使用百分比，定宽的都要使用rem。rem和设计图px转换使用方法：100px=1rem，123px=1.23rem
 ### 额外资源依赖
 * 移动端vue官方手势库 github文档地址 “https://github.com/vuejs/vue-touch/tree/next”
-* [flexbile.js](https://github.com/amfe/lib-flexible/blob/master/src/flexible.js) 新版本更好使用,简单
+* [flexbile.js-0.3.2分支-rem](https://github.com/amfe/lib-flexible/blob/master/src/flexible.js) 新版本更好使用,简单
 
