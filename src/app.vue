@@ -135,7 +135,7 @@
         let endY = e.changedTouches[0].pageY
         let Y = endY - this.startY
         if (Y < 0) {
-          e.preventDefault()
+          // e.preventDefault()
           console.log("index up")
           this.scrollTo(this.$refs.index.offsetHeight - 100)
         }
@@ -144,7 +144,7 @@
         let endY = e.changedTouches[0].pageY
         let Y = endY - this.startY
         if (Y > 0) {
-          e.preventDefault()
+          // e.preventDefault()
           this.scrollTo(0)
           return false
         }

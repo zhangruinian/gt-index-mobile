@@ -10,6 +10,7 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+为了同一个wifi分享查看需要添加 --host 0.0.0.0
 
 # build for production with minification
 npm run build
@@ -35,3 +36,8 @@ flex+rem+百分比。可以等分的使用flex:1，大于一半宽的建议使�
 ## 额外资源依赖
 * 移动端vue官方手势库 github文档地址 “https://github.com/vuejs/vue-touch/tree/next”
 * [flexbile.js-0.3.2分支-rem](https://github.com/amfe/lib-flexible/blob/master/src/flexible.js) 新版本更好使用,简单
+## 方案对比
+* 阿里方案使用的话需要开启安卓drp不能都当做1  或者要meata写死
+* [简书方案](https://www.jianshu.com/p/985d26b40199)
+ 
+`注意简书源码版本需要用babel转为es5方可以执行`
