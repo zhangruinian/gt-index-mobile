@@ -17,7 +17,7 @@
             <div class="mask" v-if="sideToggle" >
                 <div class="sidebar" @touchmove.prevent="stop">
                     <ul>
-                        <li v-for="let (nav,index) in navs">
+                        <li v-for="(nav,index) in navs">
                             <a :href="nav.href" :class="{active: nav.href == pathname}">{{nav.title}}</a>
                         </li>
                     </ul>
